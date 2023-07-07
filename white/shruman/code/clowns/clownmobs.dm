@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/clown
-	name = "Клоун"	//
+	name = "Клоун"
 	desc = "Житель измерения клоунов."
 	icon = 'icons/mob/clown_mobs.dmi'
 	icon_state = "clown"
