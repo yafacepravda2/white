@@ -32,6 +32,11 @@
 	mood_change = -6
 	timeout = 3 MINUTES
 
+/datum/mood_event/pooed
+	description = "<span class='warning'>МЫ В ДЕРЬМЕ!</span>\n"
+	mood_change = -10
+	timeout = 10 MINUTES
+
 /datum/mood_event/slipped
 	description = "<span class='warning'>Опять поскальзываюсь. Надо быть аккуратней.</span>\n"
 	mood_change = -6

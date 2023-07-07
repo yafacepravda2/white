@@ -75,6 +75,8 @@
 			suit_thing += " вместе с [s_store.get_examine_string(user)]"
 
 		. += "На [t_na] надет [wear_suit.get_examine_string(user)][suit_thing].\n"
+		if(pooed)
+			. += "<big><b>Невероятно, но [t_ego] одежда <font color='pink'>ВСЯ В ГОВНЕ</font>.</b></big>\n"
 
 	//uniform
 	if(w_uniform && !(obscured & ITEM_SLOT_ICLOTHING) && !(w_uniform.item_flags & EXAMINE_SKIP))

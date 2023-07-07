@@ -57,6 +57,8 @@
 	var/obj/item/l_store = null
 	var/obj/item/s_store = null
 
+	var/pooed = FALSE
+
 	var/special_voice = "" // For changing our voice. Used by a symptom.
 
 	var/name_override //For temporary visible name changes

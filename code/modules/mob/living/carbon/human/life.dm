@@ -52,7 +52,14 @@
 				if(hydration <= HYDRATION_LEVEL_DEHYDRATED)
 					to_chat(src, span_warning("[pick("Пить хочется...", "В горле пересохло...", "Водички бы сейчас...")]"))
 					take_overall_damage(stamina = 60)
-
+				switch(pooition)
+					if(75 to 100)
+						to_chat(src, span_warning("[pick("Где тут уборная?", "Хочу в туалет.", "Надо в туалет.")]"))
+					if(125 to 129)
+						to_chat(src, span_warning("[pick("СРОЧНО В ТУАЛЕТ!", "ЖОПНЫЙ КЛАПАН НА ПРЕДЕЛЕ!", "ХОЧУ В ТУАЛЕТ!")]"))
+					if(130 to INFINITY)
+						try_poo()
+			return TRUE
 		dna.species.spec_life(src, delta_time, times_fired) // for mutantraces
 	else
 		for(var/i in all_wounds)
