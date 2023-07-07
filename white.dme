@@ -5117,4 +5117,5 @@
 #include "white\Wzzzz\Weahosul.dm"
 #include "white\Wzzzz\megafauna\hierophant.dm"
 #include "white\Wzzzz\megafauna\legion.dm"
+#include "white\hule\items\weapons\poomortar.dm"
 // END_INCLUDE
