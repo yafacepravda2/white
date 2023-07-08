@@ -17,11 +17,10 @@
 	rounds = 12
 	ammo_type = "poo"
 
-/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/poo_mortar/can_attach(obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/poo_mortar/can_attach(obj/vehicle/sealed/mecha/M, attach_right = FALSE)
 	if(..())
-		return 1
-	else if(M.equip_by_category < M.max_equip_by_category && istype(M))
-		return 1
+		if(istype(M))
+			return 1
 	return 0
 
 /datum/crafting_recipe/poomortar  //мне лень искать как замутить дизайн для фабиркатораа

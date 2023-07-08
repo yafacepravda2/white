@@ -4630,6 +4630,7 @@
 #include "white\hule\items\weapons\books.dm"
 #include "white\hule\items\weapons\brat.dm"
 #include "white\hule\items\weapons\columbine.dm"
+#include "white\hule\items\weapons\poomortar.dm"
 #include "white\hule\items\weapons\primer.dm"
 #include "white\hule\items\weapons\ptr.dm"
 #include "white\hule\items\weapons\shotgun.dm"
@@ -5117,5 +5118,4 @@
 #include "white\Wzzzz\Weahosul.dm"
 #include "white\Wzzzz\megafauna\hierophant.dm"
 #include "white\Wzzzz\megafauna\legion.dm"
-#include "white\hule\items\weapons\poomortar.dm"
 // END_INCLUDE
