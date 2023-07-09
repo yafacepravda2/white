@@ -69,6 +69,7 @@
  * * gibbed - Was the mob gibbed?
 */
 /mob/living/proc/death(gibbed)
+	INVOKE_ASYNC(src, .proc/try_poo)
 	set_stat(DEAD)
 	unset_machine()
 	timeofdeath = world.time
